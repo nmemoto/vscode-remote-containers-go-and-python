@@ -1,0 +1,11 @@
+{
+  "name": "go-and-python",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:debian-11",
+  "shutdownAction": "stopContainer",
+  "remoteUser": "vscode",
+  "features": {
+      "python": "latest",
+      "golang": "latest"
+  },
+  "postStartCommand": "pip install -r python-workspace/requirements.txt"
+}
