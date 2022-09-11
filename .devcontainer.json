@@ -4,8 +4,12 @@
   "shutdownAction": "stopContainer",
   "remoteUser": "vscode",
   "features": {
-      "python": "latest",
-      "golang": "latest"
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "latest"
+    }
   },
   "postStartCommand": "pip install -r python-workspace/requirements.txt"
 }
