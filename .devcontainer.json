@@ -1,6 +1,6 @@
 {
   "name": "go-and-python",
-  "image": "mcr.microsoft.com/vscode/devcontainers/base:debian-11",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
   "shutdownAction": "stopContainer",
   "remoteUser": "vscode",
   "features": {
